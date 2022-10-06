@@ -1,0 +1,50 @@
+
+<div class="Base">
+<div class="tabela">
+    <h1> Letrado </h1>
+
+    <div class="linha" *ngFor="let linha of tabela">
+
+        <div class="coluna"class={{coluna.classe}} *ngFor="let coluna of linha"><span >{{coluna.nome}} </span> </div>
+
+    </div>
+
+    <div class="teclado">
+        <div class="teclas">
+            <button type="button" (click)="Digitar('q')" class="botao" accesskey="q"> q </button>
+            <button type="button" (click)="Digitar('w')" class="botao" accesskey="w"> w </button> 
+            <button type="button" (click)="Digitar('e')" class="botao" accesskey="e"> e </button> 
+            <button type="button" (click)="Digitar('r')" class="botao" accesskey="r"> r </button> 
+            <button type="button" (click)="Digitar('t')" class="botao" accesskey="t"> t </button> 
+            <button type="button" (click)="Digitar('y')" class="botao" accesskey="y"> y </button> 
+            <button type="button" (click)="Digitar('u')" class="botao" accesskey="u"> u </button> 
+            <button type="button" (click)="Digitar('i')" class="botao" accesskey="i"> i </button> 
+            <button type="button" (click)="Digitar('o')" class="botao" accesskey="o"> o </button> 
+            <button type="button" (click)="Digitar('p')" class="botao" accesskey="p"> p </button> 
+        </div>
+        <div class="teclas">
+            <button type="button" (click)="Digitar('a')" class="botao" accesskey="a"> a </button> 
+            <button type="button" (click)="Digitar('s')" class="botao" accesskey="s"> s </button> 
+            <button type="button" (click)="Digitar('d')" class="botao" accesskey="d"> d </button> 
+            <button type="button" (click)="Digitar('f')" class="botao" accesskey="f"> f </button> 
+            <button type="button" (click)="Digitar('g')" class="botao" accesskey="g"> g </button> 
+            <button type="button" (click)="Digitar('h')" class="botao" accesskey="h"> h </button> 
+            <button type="button" (click)="Digitar('j')" class="botao" accesskey="j"> j </button> 
+            <button type="button" (click)="Digitar('k')" class="botao" accesskey="k"> k </button> 
+            <button type="button" (click)="Digitar('l')" class="botao" accesskey="l"> l </button> 
+        </div>
+        <div class="teclas">
+            <button type="button" (click)="Digitar('z')" class="botao" accesskey="z"> z </button> 
+            <button type="button" (click)="Digitar('x')" class="botao" accesskey="x"> x </button> 
+            <button type="button" (click)="Digitar('c')" class="botao" accesskey="c"> c </button> 
+            <button type="button" (click)="Digitar('v')" class="botao" accesskey="v"> v </button> 
+            <button type="button" (click)="Digitar('b')" class="botao" accesskey="b"> b </button> 
+            <button type="button" (click)="Digitar('n')" class="botao" accesskey="n"> n </button> 
+            <button type="button" (click)="Digitar('m')" class="botao" accesskey="m"> m </button> 
+            <button type="button" (click)="Verificar()" class="Enter" > Enter </button> 
+        </div>
+       
+        
+    </div>
+</div>
+</div>

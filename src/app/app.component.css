@@ -1,0 +1,45 @@
+.tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    background-color: black;
+    padding: 5px;
+   
+    
+}
+.coluna{
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 3em;
+}
+.passou{
+    background-color: blue;
+    
+}
+.reprovou{
+    background-color: red;
+}
+
+.teclado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    padding-top: 60px;
+}
+.teclas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    
+    
+}
